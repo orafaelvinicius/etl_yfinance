@@ -32,7 +32,7 @@ Antes de rodar o projeto, você precisará instalar o Python 3.x e alguns pacote
 
 Este projeto armazena os dados extraídos no **SQL Server**. As configurações de conexão, como host, usuário, senha e nome do banco de dados, estão no arquivo `src/config/secrets.json`. É necessário atualizar esse arquivo com as informações corretas antes de rodar o projeto.
 
-Se não houver um banco de dados criado, faça a criação préviamente utilizando o sqlcmd com o código
+Se não houver um banco de dados criado, faça a criação préviamente utilizando seu SGBD ou o sqlcmd com o código
 ```bash
 sqlcmd -S SeuServidor -U SeuUsuário -P SuaSenha -Q "CREATE DATABASE YFINANCE"
 ```
