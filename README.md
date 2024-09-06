@@ -5,7 +5,7 @@ Este projeto realiza um processo de **ETL (Extract, Transform, Load)** para cole
 O projeto é implementado em **Python** e faz uso de diversas bibliotecas para manipulação de dados, scraping e integração com o banco de dados.
 
 ## Estrutura do Projeto
-
+```
 ETL_YFinance/
 ├── logs
 ├── main.py                         # Arquivo principal que executa o processo de ETL
@@ -20,6 +20,7 @@ ETL_YFinance/
     │   └── connect_db.py           # Função para carregar os dados no SQL Server
     └── transform
         └── trasnsform_data.py      # Funções para transformar os dados coletados
+```
 
 ## Pré-requisitos
 
