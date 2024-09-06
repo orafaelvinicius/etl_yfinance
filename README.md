@@ -46,7 +46,7 @@ sqlcmd -S SeuServidor -U SeuUsuário -P SuaSenha -Q "CREATE DATABASE YFINANCE"
 Primeiro, clone o repositório para a sua máquina local.
 
 ```bash
-git clone https://github.com/seu-usuario/ETL_YFinance.git
+git clone https://github.com/orafaelvinicius/etl_yfinance.git
 cd ETL_YFinance
 ```
 
